@@ -60,6 +60,7 @@ public class CustomComputerOpponent extends ComputerOpponent {
      */
     @Override
     public void yourTurnHasBegun() {
+        System.out.println("Turn start");
         // TODO Auto-generated method stub
     }
 
