@@ -60,13 +60,12 @@ public class CustomComputerOpponent extends ComputerOpponent {
      */
     @Override
     public void yourTurnHasBegun() {
-        System.out.println("Turn start");
+        System.out.println("Turn starts here");
         // TODO Auto-generated method stub
     }
 
     @Override
     public Coordinates promptToFireShot() throws Exception {
-	System.out.println("Fire!");
         return fireAtRandomTarget();
     }
 
