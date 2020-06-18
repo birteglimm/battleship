@@ -22,7 +22,7 @@ public class CustomComputerOpponent extends ComputerOpponent {
      */
     @Override
     public String toString() {
-        return name + " (Clever AI)";
+        return name + " (Custom AI)";
     }
 
     // ------------------------------------------------------------------------------------------------
