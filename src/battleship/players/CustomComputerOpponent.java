@@ -65,6 +65,7 @@ public class CustomComputerOpponent extends ComputerOpponent {
 
     @Override
     public Coordinates promptToFireShot() throws Exception {
+	System.out.println("Fire!");
         return fireAtRandomTarget();
     }
 
